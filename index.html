@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Clínica Dental Sonrisa</title>
+</head>
+<body>
+    <header>
+        <h1>Clínica Dental Sonrisa :)</h1>
+        <p>¡Cuidando tu salud bucal con dedicación!</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a> |
+        <a href="#">Servicios</a> |
+        <a href="#">Contacto</a> |
+        <a href="#">Nosotros</a>
+    </nav>
+
+    <hr>
+        <section id ="Bienvenida">
+            <h2>Bienvenido a nuestra Clínica</h2>
+            <p>En Clínica Dental Sonrisa, nos especializamos en ofrecer los mejores servicios odontológicos para garantizar una sonrisa saludable. Contamos con un equipo de profesionales altamente capacitados y tecnología avanzada para brindarte una atención de calidad.</p>
+            <img src="presentacion.jpg">
+        </section>
+
+        <section id = "Servicios">
+            <h2>Servicios</h2>
+
+            <h3>Servicios ofrecidos:</h3>
+            <ul>
+                <li>Odontología</li>
+                    <ol>
+                        <li>Plan Basico</li>
+                        <li>Plan Economico</li>
+                        <li>Plan Premium</li>
+                    </ol>
+                <li>Ortodoncia</li>
+                    <ol>
+                        <li>Plan Basico</li>
+                        <li>Plan Economico</li>
+                        <li>Plan Premium</li>
+                    </ol>
+                <li>Implantes Dentales</li>
+                    <ol>
+                        <li>Plan Basico</li>
+                        <li>Plan Economico</li>
+                        <li>Plan Premium</li>
+                    </ol>
+                <li>Cirugía bucal y maxilofacial</li>
+                    <ol>
+                        <li>Plan Basico</li>
+                        <li>Plan Economico</li>
+                        <li>Plan Premium</li>
+                    </ol>
+                <li>Odontología prostodóntica</li>
+                    <ol>
+                        <li>Plan Basico</li>
+                        <li>Plan Economico</li>
+                        <li>Plan Premium</li>
+                    </ol>
+            </ul>
+
+            <h3>Odontología General</h3>
+            <p>Revisiones regulares, limpiezas dentales, empastes y más.</p>
+            <img src="revision.jpg">
+
+            <h3>Ortodoncia</h3>
+            <p>Alineamos tus dientes con los mejores tratamientos ortodónticos.</p>
+            <img id = "img2" src="Tratamiento.jpg">
+
+            <h3>Implantes Dentales</h3>
+            <p>Recupera tu sonrisa con nuestros implantes de alta calidad.</p>
+            <img src="Correccion.jpg">
+        </section>
+
+        <section id = "Cita">
+            <h2>Pasos para tu primera cita</h2>
+            <ol>
+                <li>Programa una cita.</li>
+                <li>Preparar tu historial médico.</li>
+                <li>Llegar temprano y llevar documentos.</li>
+                <li>Realizar un examen inicial.</li>
+                <li>Hablar de tus preocupaciones</li>
+            </ol>
+            <table id = "tabla" border="5" width="50%">
+            <h2>Horario de Atención</h2>
+            <tr>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miercoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+                <td>Sabados</td>
+            </tr>
+            <tr>
+                <td>8:00 AM - 4:00 PM</td>
+                <td>9:00 AM - 5:00 PM</td>
+                <td>8:00 AM - 6:00 PM</td>
+                <td>10:00 AM - 4:00 PM</td>
+                <td>8:00 AM - 3:00 PM</td>
+                <td>9:00 AM - 1:00 PM</td>
+            </tr>
+            </table>
+        </section>
+        <section id = "Preguntas">
+            <h2>Preguntas Frecuentes</h2>
+            <dl>
+                <dt>¿Cuánto dura una consulta dental?</dt>
+                <dd>La consulta dental inicial dura entre 30 y 60 minutos.</dd>
+
+                <dt>¿Ofrecen financiamiento para tratamientos?</dt>
+                <dd>Sí, tenemos planes de pago flexibles para nuestros pacientes.</dd>
+
+                <dt>¿Qué cuidados debo tener después de un tratamiento?</dt>
+                <dd>Dependiendo del tratamiento, te proporcionaremos recomendaciones específicas para tu cuidado postoperatorio.</dd>
+            </dl>
+        </section>
+
+        <section id = "Contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o deseas agendar una cita? Contáctanos:</p>
+            <p>Email: contacto@clinicadentalsonrisa.com</p>
+            <p>Teléfono: +34 123 456 789</p>
+            <p>Dirección: Calle Salud Dental, 123, Ciudad Sonrisa</p>
+        </section>
+        <section id = "Datos">
+            <div class="Contenedor">
+                <h2>Nosotros te llamamos... Dejanos tus datos</h2>
+                <form>
+                    <label> * Nombre:</label>
+                    <input type="text" name="nombre" required>
+                    <label> * Correo:</label>
+                    <input type="email" id = "email"name="email" required>
+                    <label> * Telefono:</label>
+                    <input type="tel" name="telefono" miniength = "8">
+                    <label> * Celular:</label>
+                    <input type="tel" name="celular" miniength = "10">
+                    <label> * Mensaje:</label>
+                    <select id = "Consultas" name="mensaje" rows = "4" required>
+                        <option disabled = "" selected ="" > Selecciona tu tipo de consulta</option>
+                        <option value="cg">Chequeo General</option>
+                        <option value="ld">Limpieza Dental</option>
+                        <option value="er">Evaluación para Relleno</option>
+                        <option value="tc">Tratamiento de Conducto</option>
+                        <option value="ed">Extracción Dental</option>
+                        <option value="bd">Blanqueamiento dental</option>
+                        <option value="oi">Ortodoncia / Invisalign</option>
+                    </select>
+                    <br>
+                    <input type="submit" name="" value="Enviar">
+                </form>
+            </div>
+        </section>
+    <hr>
+    <footer>
+        <p>&copy; 2024 Clínica Dental Sonrisa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
